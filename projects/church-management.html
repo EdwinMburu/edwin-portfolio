@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Edwin Mwaura Mburu">
+
+<meta property="og:title" content="Githiga SDA Church Management App | Edwin Mwaura Mburu">
+
+<meta
+    property="og:description"
+    content="A completed church management app with membership records, departments, offerings, expenses and reports, built by Edwin Mwaura Mburu with Kotlin, Ktor, MongoDB and Jetpack Compose."
+>
+
+<meta property="og:type" content="article">
+    <meta
+        name="description"
+        content="Githiga SDA Church Management App: membership records, departments, offerings, expenses, reports and user roles for a local church, by Edwin Mwaura Mburu."
+    >
+
+    <title>Githiga SDA Church Management App | Edwin Mwaura Mburu</title>
+
+    <link rel="icon" type="image/png" href="../assets/logo/logo.png">
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
+    <header class="site-header">
+
+        <nav class="navbar">
+
+            <a href="../index.html" class="logo">
+                <img
+                    src="../assets/logo/logo.png"
+                    alt="Edwin Mwaura Mburu logo"
+                >
+            </a>
+
+            <div class="nav-links">
+                <a href="../index.html">Home</a>
+                <a href="../projects.html">Projects</a>
+                <a href="../about.html">About</a>
+                <a href="../contact.html">Contact</a>
+                <a
+                    href="../assets/cv/Edwin-Mwaura-Mburu-CV.pdf"
+                    class="nav-cv"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    CV
+                </a>
+            </div>
+
+            <button
+                class="menu-button"
+                type="button"
+                aria-label="Open navigation menu"
+            >
+                &#9776;
+            </button>
+
+        </nav>
+
+    </header>
+
+
+    <!-- =========================
+         PROJECT HERO
+    ========================== -->
+
+    <main>
+
+        <section class="project-hero">
+
+            <p class="eyebrow">
+                COMMUNITY PROJECT · COMPLETED
+            </p>
+
+            <h1>
+                Githiga SDA Church Management App
+            </h1>
+
+            <p class="project-subtitle">
+                A management app for a local church that brings membership
+                records, departments, offerings, expenses and reports into
+                one system, with separate roles for the people who run it.
+            </p>
+
+            <div class="project-tags">
+                <span>Kotlin</span>
+                <span>Ktor</span>
+                <span>MongoDB</span>
+                <span>Jetpack Compose</span>
+                <span>User roles</span>
+            </div>
+
+        </section>
+
+
+        <section class="case-study-section">
+
+            <div class="case-study-heading">
+
+                <p class="eyebrow">
+                    OVERVIEW
+                </p>
+
+                <h2>
+                    Software for a real community
+                </h2>
+
+            </div>
+
+            <div class="case-study-content">
+
+                <p>
+                    This is a finished church management app built for Githiga SDA Church. It replaces scattered paper records with one system for members, departments and the church&rsquo;s finances.
+                </p>
+
+                <p>
+                    It is an Android app backed by its own server and database, with four roles (admin, treasurer, pastor and member), so each person can only do what their role allows.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <section class="case-study-section">
+
+            <div class="case-study-heading">
+
+                <p class="eyebrow">
+                    THE PROBLEM
+                </p>
+
+                <h2>
+                    Why I built it
+                </h2>
+
+            </div>
+
+            <div class="case-study-content">
+
+                <p>
+                    A church handles a lot of information at once: who its members are, which departments they serve in, what is given each Sabbath and what is spent. When this lives in books and loose papers, totals are slow to produce and hard to trust.
+                </p>
+
+                <p>
+                    I wanted offerings and expenses to be recorded once, added up automatically and summarised for any period, so the people who lead the church can see the full picture whenever they need it.
+                </p>
+
+            </div>
+
+        </section>
+
+
+<!-- =========================
+     PROJECT SHOWCASE
+========================= -->
+
+<section class="project-showcase">
+
+    <div class="showcase-heading">
+        <p class="eyebrow">THE APPLICATION</p>
+
+        <h2>
+            One system for the whole church
+        </h2>
+
+        <p>
+            Finances, members and departments are connected, so every
+            report is built from the same records.
+        </p>
+    </div>
+
+
+    <!-- Dashboard -->
+
+    <div class="showcase-feature">
+
+        <div class="showcase-image">
+            <img
+                src="../assets/images/projects/church-dashboard.jpg"
+                alt="Church management app dashboard with collections, expenses, net balance and offering categories"
+                class="project-image"
+            >
+        </div>
+
+        <div class="showcase-text">
+
+            <p class="eyebrow">01 — DASHBOARD</p>
+
+            <h3>
+                The church&rsquo;s finances at a glance
+            </h3>
+
+            <p>
+                Choose a date range and see total collections, total expenses and the net balance, with every offering category and a financial trend. Figures are compared with the previous equivalent period, and recent activity shows what has just been recorded.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- Offerings -->
+
+    <div class="showcase-feature reverse">
+
+        <div class="showcase-image">
+            <img
+                src="../assets/images/projects/church-record-offerings.jpg"
+                alt="Church management app form for recording offering amounts by category"
+                class="project-image"
+            >
+        </div>
+
+        <div class="showcase-text">
+
+            <p class="eyebrow">02 — OFFERINGS</p>
+
+            <h3>
+                Recording offerings by envelope
+            </h3>
+
+            <p>
+                Each member&rsquo;s offering envelope is captured in one entry, split across the eight categories: Sabbath Offering, Tithe, Development, Welfare, Camp Meeting, Thanksgiving, Evangelism and Other. Records can then be searched and filtered by date and category.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- Expenses -->
+
+    <div class="showcase-feature">
+
+        <div class="showcase-image">
+            <img
+                src="../assets/images/projects/church-expenses-dashboard.jpg"
+                alt="Church management app expenses dashboard with totals by category"
+                class="project-image"
+            >
+        </div>
+
+        <div class="showcase-text">
+
+            <p class="eyebrow">03 — EXPENSES</p>
+
+            <h3>
+                Knowing where the money goes
+            </h3>
+
+            <p>
+                Expenses are recorded by category, such as cleaning, electricity, stationery and water. The expenses dashboard shows totals, trends and the highest-spending category compared with the previous period.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- Departments -->
+
+    <div class="showcase-feature reverse">
+
+        <div class="showcase-image">
+            <img
+                src="../assets/images/projects/church-departments.jpg"
+                alt="Church management app departments overview and directory"
+                class="project-image"
+            >
+        </div>
+
+        <div class="showcase-text">
+
+            <p class="eyebrow">04 — DEPARTMENTS</p>
+
+            <h3>
+                Organising the church&rsquo;s ministries
+            </h3>
+
+            <p>
+                A directory of departments shows each one&rsquo;s leader, status and number of members, with totals for departments, leaders and upcoming activities. New departments can be added and old ones archived.
+            </p>
+
+        </div>
+
+    </div>
+
+
+</section>
+
+
+        <!-- =========================
+             MORE SCREENS
+        ========================== -->
+
+        <section class="project-showcase screens-gallery">
+
+            <div class="showcase-heading">
+                <p class="eyebrow">MORE OF THE APP</p>
+
+                <h2>
+                    A closer look
+                </h2>
+
+                <p>
+                    A few more screens. Tap any image to enlarge it.
+                </p>
+            </div>
+
+            <div class="screens-grid">
+
+        <figure class="screen-card">
+            <div class="showcase-image">
+                <img
+                    src="../assets/images/projects/church-navigation.jpg"
+                    alt="Church management app navigation menu"
+                    class="project-image"
+                    width="720"
+                    height="1350"
+                    loading="lazy"
+                >
+            </div>
+            <figcaption>
+                <strong>Navigation</strong>
+                <span>Dashboard, members, finance, expenses, departments, reports and users, all from one menu.</span>
+            </figcaption>
+        </figure>
+
+        <figure class="screen-card">
+            <div class="showcase-image">
+                <img
+                    src="../assets/images/projects/church-record-expense.jpg"
+                    alt="Church management app form for recording an expense"
+                    class="project-image"
+                    width="720"
+                    height="1611"
+                    loading="lazy"
+                >
+            </div>
+            <figcaption>
+                <strong>Record an expense</strong>
+                <span>A short form for the date, category, description and amount, with who recorded it.</span>
+            </figcaption>
+        </figure>
+
+        <figure class="screen-card">
+            <div class="showcase-image">
+                <img
+                    src="../assets/images/projects/church-department-detail.jpg"
+                    alt="Church management app department detail screen"
+                    class="project-image"
+                    width="720"
+                    height="1611"
+                    loading="lazy"
+                >
+            </div>
+            <figcaption>
+                <strong>Department detail</strong>
+                <span>Each department has an overview, members, leadership, activities and finances.</span>
+            </figcaption>
+        </figure>
+
+        <figure class="screen-card">
+            <div class="showcase-image">
+                <img
+                    src="../assets/images/projects/church-reports.jpg"
+                    alt="Church management app reports screen"
+                    class="project-image"
+                    width="720"
+                    height="1611"
+                    loading="lazy"
+                >
+            </div>
+            <figcaption>
+                <strong>Reports</strong>
+                <span>Read-only summaries for any period covering finance, offerings, expenses, membership and departments.</span>
+            </figcaption>
+        </figure>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             KEY AREAS
+        ========================== -->
+
+        <section class="case-study-section">
+
+            <div class="case-study-heading">
+
+                <p class="eyebrow">
+                    SYSTEM AREAS
+                </p>
+
+                <h2>
+                    What it does
+                </h2>
+
+            </div>
+
+            <div class="case-study-grid">
+
+                <article class="case-study-card">
+                    <span>01</span>
+                    <h3>Dashboard</h3>
+                    <p>
+                        Collections, expenses and net balance for any period, with trends and comparisons.
+                    </p>
+                </article>
+
+                <article class="case-study-card">
+                    <span>02</span>
+                    <h3>Members</h3>
+                    <p>
+                        A membership directory with search, filters and counts of active, inactive and pending members.
+                    </p>
+                </article>
+
+                <article class="case-study-card">
+                    <span>03</span>
+                    <h3>Finance &amp; Offerings</h3>
+                    <p>
+                        Offering envelopes recorded across eight categories and reviewed as records or collections.
+                    </p>
+                </article>
+
+                <article class="case-study-card">
+                    <span>04</span>
+                    <h3>Expenses</h3>
+                    <p>
+                        Spending recorded by category, with totals, trends and a record of each expense.
+                    </p>
+                </article>
+
+                <article class="case-study-card">
+                    <span>05</span>
+                    <h3>Departments</h3>
+                    <p>
+                        Leaders, members, leadership positions, activities and finances for each department.
+                    </p>
+                </article>
+
+                <article class="case-study-card">
+                    <span>06</span>
+                    <h3>Reports</h3>
+                    <p>
+                        Read-only summaries of finances, offerings, expenses, membership and departments.
+                    </p>
+                </article>
+
+                <article class="case-study-card">
+                    <span>07</span>
+                    <h3>Users &amp; Roles</h3>
+                    <p>
+                        Admin, treasurer, pastor and member roles, with permissions enforced by the server and secure sign-in.
+                    </p>
+                </article>
+
+                <article class="case-study-card">
+                    <span>08</span>
+                    <h3>Search &amp; Filters</h3>
+                    <p>
+                        Find members, offerings and expenses quickly by name, ID, date or category.
+                    </p>
+                </article>
+
+                <article class="case-study-card">
+                    <span>09</span>
+                    <h3>Date Ranges</h3>
+                    <p>
+                        Every dashboard and report can be viewed for the period that matters.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             TECHNOLOGY
+        ========================== -->
+
+        <section class="case-study-section">
+
+            <div class="case-study-heading">
+
+                <p class="eyebrow">
+                    TECHNOLOGY
+                </p>
+
+                <h2>
+                    Built with
+                </h2>
+
+            </div>
+
+            <div class="technology-list">
+
+                <div>
+                    <strong>Kotlin</strong>
+                    <span>Android app and server</span>
+                </div>
+
+                <div>
+                    <strong>Jetpack Compose</strong>
+                    <span>Android user interface</span>
+                </div>
+
+                <div>
+                    <strong>Ktor</strong>
+                    <span>Backend API</span>
+                </div>
+
+                <div>
+                    <strong>MongoDB Atlas</strong>
+                    <span>Application data</span>
+                </div>
+
+                <div>
+                    <strong>JWT</strong>
+                    <span>Secure sign-in</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="case-study-section">
+
+            <div class="case-study-heading">
+
+                <p class="eyebrow">
+                    WHAT I LEARNED
+                </p>
+
+                <h2>
+                    Designing for several kinds of users
+                </h2>
+
+            </div>
+
+            <div class="case-study-content">
+
+                <p>
+                    This project taught me to build a full system end to end: an Android app, a Ktor API and a MongoDB database, with sign-in and role-based access. I learned to model members, departments, offerings and expenses so dashboards and reports stay accurate.
+                </p>
+
+                <p>
+                    It also showed me how much care financial software needs: totals have to be correct, records have to be traceable and the screens have to be clear to people who are not technical.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <section class="case-study-section">
+
+            <div class="case-study-heading">
+
+                <p class="eyebrow">
+                    WHAT&rsquo;S NEXT
+                </p>
+
+                <h2>
+                    Where it can go from here
+                </h2>
+
+            </div>
+
+            <div class="case-study-content">
+
+                <p>
+                    The app is complete. Natural next steps are richer reports and exports, and using the data a church already collects to surface useful insights for its leaders.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             BACK LINK
+        ========================== -->
+
+        <section class="project-navigation">
+
+            <a href="../projects.html" class="button secondary-button">
+                ← Back to Projects
+            </a>
+
+            <a
+                href="https://github.com/EdwinMburu/church-management-app"
+                class="project-link"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                View Source on GitHub ↗
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="site-footer">
+
+        <div class="footer-logo">
+            EM
+        </div>
+
+        <p>
+            Edwin Mwaura Mburu
+        </p>
+
+        <p>
+            Software Developer & Computer Science Student
+        </p>
+
+        <p class="copyright">
+            © 2026 Edwin Mwaura Mburu
+        </p>
+
+    </footer>
+
+        <!-- IMAGE LIGHTBOX -->
+        <div class="lightbox"
+             id="imageLightbox"
+             role="dialog"
+             aria-modal="true"
+             aria-label="Image preview"
+             aria-hidden="true">
+
+            <button class="lightbox-close"
+                    type="button"
+                    aria-label="Close image preview">
+                &times;
+            </button>
+
+            <img class="lightbox-image" src="" alt="Image preview">
+
+            <p class="lightbox-caption"></p>
+
+        </div>
+
+        <script src="../js/main.js"></script>
+
+</body>
+
+</html>

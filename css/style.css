@@ -1892,3 +1892,60 @@ body.lightbox-open {
     gap: 12px;
     flex-wrap: wrap;
 }
+
+
+/* =========================
+   SCREENS GALLERY
+   (added for the My Farm Manager case study)
+========================= */
+
+.screens-gallery {
+    padding-top: 40px;
+}
+
+.screens-gallery .showcase-heading {
+    margin-bottom: 50px;
+}
+
+.screens-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 24px;
+}
+
+.screen-card {
+    margin: 0;
+}
+
+.screen-card figcaption {
+    padding: 14px 4px 0;
+}
+
+.screen-card figcaption strong {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 1rem;
+}
+
+.screen-card figcaption span {
+    display: block;
+    color: #a1a1aa;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 1000px) {
+
+    .screens-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+}
+
+@media (max-width: 520px) {
+
+    .screens-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
